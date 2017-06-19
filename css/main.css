@@ -6,9 +6,24 @@ section.features .feature-item i{
 	font-size: 30px;
 }
 
+section.features .feature-item{
+	max-width:none;
+}
+
 section.features .feature-item .text-muted{
-	text-align: left;
+	text-align: center;
 	font-size:16px;
+}
+
+@media (min-width: 992px){
+	section.features .feature-item{
+		max-width:300px;
+	}
+
+	section.features .feature-item .text-muted{
+		text-align: left;
+		font-size:16px;
+	}
 }
 
 .youtubevideowrap{
