@@ -1,0 +1,13 @@
+#howitworks .section-heading{
+	margin-bottom:50px;
+}
+
+section.features .feature-item i{
+	font-size: 30px;
+}
+
+section.features .feature-item .text-muted{
+	text-align: left;
+	font-size:16px;
+}
+
