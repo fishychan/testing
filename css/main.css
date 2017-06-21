@@ -1,4 +1,17 @@
-#howitworks .section-heading{
+/* Header */
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    overflow-y: hidden;
+    background: url(../img/bg-pattern.png),#E56717;
+    background: url(../img/bg-pattern.png),-webkit-linear-gradient(to left,#E56717,#F88017);
+    background: url(../img/bg-pattern.png),linear-gradient(to left,#E56717,#F88017);
+    color: #fff;
+}
+
+/* Features section */
+section.features .section-heading, #howitworks .section-heading{
 	margin-bottom:50px;
 }
 
@@ -15,6 +28,13 @@ section.features .feature-item .text-muted{
 	font-size:16px;
 }
 
+section.features .feature-item i {
+    background: -webkit-linear-gradient(to left,#E56717,#F88017);
+    background: linear-gradient(to left,#E56717,#F88017);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @media (min-width: 992px){
 	section.features .feature-item{
 		max-width:300px;
@@ -26,6 +46,7 @@ section.features .feature-item .text-muted{
 	}
 }
 
+/* Youtube Video Related */
 .youtubevideowrap{
     width: 80%;
     max-width: 640px;
