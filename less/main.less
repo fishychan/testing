@@ -1,45 +1,5 @@
 @theme-primary:    #13B09B;
 
-
-
-/* Mobile/Web Manipulation */
-
-.web-version{
-	display:none;
-}
-
-.mobile-version{
-	display:block;
-}
-
-@media (min-width: 992px){
-	section.features .feature-item{
-		max-width:300px;
-
-		.text-muted{
-			text-align: left;
-			font-size:16px;
-		}
-	}
-
-	section.cost .feature-item {
-		.icon{
-			text-align:right;
-		}
-		.text{
-			text-align:left;
-		}
-	}
-
-	.web-version{
-		display:block;
-	}
-
-	.mobile-version{
-		display:none;
-	}
-}
-
 /* Header */
 header {
     position: relative;
@@ -161,6 +121,8 @@ section.cost{
 
 /* VWOs and Testimonials */
 #vwos{
+	border-top: solid 1px #CCC;
+
 	.section-heading{
 	    margin-bottom: 50px;
 	}
@@ -177,4 +139,52 @@ section.cost{
     color: #000;
     background-color: #fff;
     border-color: #fff;
+}
+
+
+
+
+/* Mobile/Web Manipulation */
+/*
+.web-version{
+	display:none;
+}
+
+.mobile-version{
+	display:block;
+}*/
+	.web-version{
+		display:block;
+	}
+
+	.mobile-version{
+		display:none;
+	}
+
+@media (min-width: 992px){
+	section.features .feature-item{
+		max-width:300px;
+
+		.text-muted{
+			text-align: left;
+			font-size:16px;
+		}
+	}
+
+	section.cost .feature-item {
+		.icon{
+			text-align:right;
+		}
+		.text{
+			text-align:left;
+		}
+	}
+/*
+	.web-version{
+		display:block;
+	}
+
+	.mobile-version{
+		display:none;
+	}*/
 }
