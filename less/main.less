@@ -11,7 +11,13 @@ header {
     color: #fff;
 
     .header-content {
-	    padding: 100px 0 50px;
+	    padding: 100px 0 100px;
+
+	    .supported-by{
+		    font-size: 14px;
+		    position: relative;
+    		margin-top: 30px;
+	    }
 	}
 }
 
@@ -117,6 +123,14 @@ section.cost{
 		    -webkit-text-fill-color: transparent;
 		}
 	}
+	.footnote{
+		text-align: left;
+    	margin-top: 50px;
+
+    	p {
+    		font-size: 14px;
+    	}
+	}
 }
 
 /* VWOs and Testimonials */
@@ -154,7 +168,15 @@ section.cost{
 	display:block;
 }
 
+@media (min-width: 768px){
+	header .header-content .supported-by{
+	    bottom: 10%;
+	    position: absolute;
+	}
+}
+
 @media (min-width: 992px){
+
 	section.features .feature-item{
 		max-width:300px;
 
@@ -165,6 +187,8 @@ section.cost{
 	}
 
 	section.cost .feature-item {
+	    padding-top: 25px;
+	    
 		.icon{
 			text-align:right;
 		}
