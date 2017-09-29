@@ -3,5 +3,11 @@
   "description": "Info about Project TinTin for VWOs",
   "repository": "https://github.com/fishychan/testing",
   "logo": "https://github.com/fishychan/testing/blob/master/img/vwo_logos/logo_dpa.png",
-  "keywords": ["test","tintin"]
+  "keywords": ["test","tintin"],
+  "addons": [
+    "scheduler",
+    {
+      "plan": "standard"
+    }
+  ]
 }
