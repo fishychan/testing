@@ -1,7 +1,7 @@
 {
   "name": "TinTin Sample",
   "description": "Info about Project TinTin for VWOs",
-  "repository": "https://github.com/fishychan/testing,
+  "repository": "https://github.com/fishychan/testing",
   "logo": "https://github.com/fishychan/testing/blob/master/img/vwo_logos/logo_dpa.png",
   "keywords": ["test","tintin"]
 }
